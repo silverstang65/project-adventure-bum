@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.theimage {
+    background-image: url(images/image\ 80.png);
+    height: 3000vh;
+    width: 400vh;
+}
