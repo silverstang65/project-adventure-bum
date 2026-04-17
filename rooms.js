@@ -28,16 +28,54 @@ const images = [
     'images/Level_0_alt 1.png',
     'images/level94 1.png',
     'images/pools 1.png',
-    'images/SCPtitle.png',
     'images/source-of-the-iconic-house-liminal-space-was-found-along-v0-0m9x4jp5g24d1 1.png',
     'images/source-of-the-iconic-house-liminal-space-was-found-along-v0-whms4jv9g24d1 1.png',
-    'images/which-is-the-real-level-94-v0-onfuiti1m19d1 1.png'
+    'images/which-is-the-real-level-94-v0-onfuiti1m19d1 1.png',
+
 ];
+
+const imageslevel0 = [
+    'images/Level_0_alt 1.png',
+    'images/arrows.png',
+    'images/dark 1.png',
+    'images/iconic.png',
+    'images/view.png',
+    'images/THEimage.png',
+    'images/vhs.png',
+    'images/level0.png',
+    'images/hall 1.png',
+    'images/chair1.png',
+    'images/noshelves.png'
+];
+
+const imageslevel1 = [
+    'images/parking.png'
+];
+
+const imageslevel5 = [
+];
+
+const imageslevel37 = [
+    'images/poolhall,png',
+    'images/pools 1.png',
+    'images/stairs.png',
+    'images.'
+];
+
+const imageslevel232 = [
+];
+
+const imageslevel94 = [
+];
+
+const imageslimbo= [
+];
+
 
 const arrows = ['images/arrow.png'];
 
 document.addEventListener('DOMContentLoaded', () => {
-    const randomizer = document.querySelector('random-level');
+    const randomizer = document.querySelector('rando-level');
     const randoPage = [
         'Level0.html',
         'Level1.html',
@@ -45,7 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'Level37.html',
         'Level94.html',
         'Level232.html',
-        'Level.html'
+        'Level.html',
+        'limbo.html'
     ];
 
     randomizer.addEventListener('click', (event) => {
@@ -57,10 +96,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const randoImage = images[Math.floor(Math.random() * images.length)];
-    document.body.style.backgroundImage = `url(${encodeURI(randoImage)})`;
-    document.body.style.backgroundSize = 'cover';
-    document.body.style.backgroundPosition = 'center';
-    document.body.style.backgroundRepeat = 'no-repeat';
+    document.getElementById(screen).style.backgroundImage = `url(${encodeURI(randoImage)})`;
+    document.getElementById(screen).style.backgroundSize = 'cover';
+    document.getElementById(screen).style.backgroundPosition = 'center';
+    document.getElementById(screen).style.backgroundRepeat = 'no-repeat';
 
     const img = document.querySelector('img');
     if (img) {
@@ -77,3 +116,10 @@ function chooseRandoPage(pages) {
     const index = Math.floor(Math.random() * pages.length);
     return pages[index];
 }
+
+const storybeats = [storyboard];
+
+document.addEventListener('DOMContentLoaded', () => {  
+    const log = document.querySelector('.logging');
+
+});
