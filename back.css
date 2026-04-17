@@ -44,6 +44,22 @@ p {
     font-family: "Coral Pixels", serif;
 }
 
-.starter {
+.rotate0 {
+    transform: rotate(0deg);
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+}
+
+.rotate270 {
+    transform: rotate(270deg);
+}
+
+.menu {
     background-image: url(images/SCPtitle.png);
 }
