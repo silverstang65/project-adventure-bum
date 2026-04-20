@@ -17,3 +17,9 @@ header {
 .starter {
     background-image: url(images/SCPtitle.png);
 }
+
+.button { 
+    background-color: black;
+    font: white;
+    border: white;
+}
