@@ -49,6 +49,27 @@ font-size: 25px;
     border-radius: 5px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#roomImage {
+    max-width: 80%;
+    max-height: 80%;
+    border: 2px solid white;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 progress {
     height: 20px;
     -webkit-appearance: none;
