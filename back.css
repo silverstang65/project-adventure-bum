@@ -63,6 +63,7 @@ font-size: 25px;
     justify-content: center;
     align-items: center;
     height: 80vh;
+    position: relative;
 }
 
 #roomImage {
@@ -76,6 +77,8 @@ font-size: 25px;
     height: 50px;
     margin-top: 10px;
     cursor: pointer;
+    position: absolute;
+    
 }
 
 progress {
