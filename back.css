@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
 
 body:not(starter) {
     background-color: black;
@@ -19,6 +20,13 @@ header {
     font-style: normal;
   }
 
+
+.libre-baskerville {
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
   
 .pixelify-sans{
     font-family: "Pixelify Sans", sans-serif;
@@ -112,7 +120,7 @@ p {
     appearance: none;
 }
 
-.audio {
+.autio {
     appearance: none;
     display: none;
 }
@@ -120,8 +128,9 @@ p {
 button {
     background-color: black;
     color: white;
-    border: white;
-    height: 100px;
-    width: 100px;
+    border-color: white;
+    height: 60px;
+    width: 140px;
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
 }
-
