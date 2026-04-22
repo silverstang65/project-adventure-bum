@@ -88,9 +88,12 @@ progress {
     color:yellow;
 }
 
-p {
-    color:aquamarine;
+.playerDialogue  {
+    color: #ff7f50;
     font-family: "Coral Pixels", serif;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
 }
 
 .rotate0 {
