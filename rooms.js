@@ -3,7 +3,7 @@
 const imageslevel0 = [
     {image: 'images/level0.png', weight: 20, arrows: [{top: '57%', left: '46%'}, {top: '60%', right: '68%'}, {top: '65%', right: '19%'}]},
     {image: 'images/door.png', weight: 30, arrows: [{top: '56%', left: '47.5%'}]},
-    {image: 'images/arrows.png', weight: 10, arrows: [{top: '20%', left: '30%'}, {top: '60%', right: '10%'}, {top: '15%', right: '5%'}, {bottom: '10%', left: '50%'}]},
+    {image: 'images/arrows.png', weight: 600, arrows: [{top: '60%', left: '40%'}, {top: '60%', right: '10%'}, {top: '15%', right: '5%'}, {bottom: '10%', left: '50%'}]},
     {image: 'images/dark 1.png', weight: 10, arrows: [{top: '20%', left: '30%'}, {top: '60%', right: '10%'}, {top: '15%', right: '5%'}, {bottom: '10%', left: '50%'}]},
     {image: 'images/iconic.png', weight: 10, arrows: [{top: '20%', left: '30%'}, {top: '60%', right: '10%'}, {top: '15%', right: '5%'}, {bottom: '10%', left: '50%'}]},
     {image: 'images/view.png', weight: 10, arrows: [{top: '20%', left: '30%'}, {top: '60%', right: '10%'}, {top: '15%', right: '5%'}, {bottom: '10%', left: '50%'}]},
@@ -140,7 +140,7 @@ function changeImage() {
     }
 }
 
-// Ensuring the function is available globally for the HTML onclick
+// Ensuring that the Html function is available globally
 window.changeImage = changeImage;
 
 document.addEventListener('DOMContentLoaded', () => {
